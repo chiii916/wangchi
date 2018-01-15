@@ -1,0 +1,59 @@
+/**版面設計**/
+
+body{
+	font-family:"Calibri Regular","微軟正黑體 Light", sans-serif;
+    color: #000;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    line-height: 1rem;
+}
+
+header{
+	height: 126px;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+
+/**細節設計**/
+/**logo**/
+
+#banner{
+	float: left;
+}
+
+
+#banner img{
+	vertical-align: bottom;
+	width: 332px
+}
+
+nav{
+	float: right;
+	font-size: 16pt;
+	font-family:'Montserrat',sans-serif;
+	padding-top: 30px;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav li a{
+	display: block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-decoration: none;
+	border-bottom: solid 3px transparent;
+	color: #000000;
+}
+
