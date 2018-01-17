@@ -6,10 +6,10 @@ body{
 
 
 header{
-	width: 960px;
-	height: 750px;
-	position: fixed;
-	width: 100%;
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-right: 25px;
+	z-index: 1000;
 }
 
 /* ### HEADER LOGO ###*/
@@ -18,9 +18,6 @@ header{
     float: left;
 }
 
-#banner h1 {
-    margin: 0;
-}
 
 #banner img {
     vertical-align: bottom;
@@ -30,56 +27,65 @@ header{
 
 /* ### HEADER 按鈕 ###*/
 
-button{
-	float: right;
-}
-
-nav{
+button {
 	float: right;
 	font-size: 16pt;
 	font-family:'Montserrat',sans-serif;
 	padding-top: 30px;
+	border-bottom: solid 3px transparent;
 }
 
-nav ul{
-	margin: 0;
-	padding: 0;
+button img{
+	height: 25px;
+	width: 25px;
+	border: none;
 }
 
-nav li{
-	list-style-type: none;
-	float: left;
+#submenu li{
+	display: inline;
+    list-style-type: none;
+    
 }
 
-nav li a{
-	display: block;
-	float: left;
-	margin-left: 20px;
-	margin-top: 20px;
-	text-decoration: none;
-	border-bottom: solid 3px transparent;;
+#submenu img{
+	height: 20px;
+	width: 20px;
+
 }
 
 /**main圖片**/
 
-img{
+#headerpost img{
 	width: 960px;
 	height: 800px;
+	margin-bottom: 50px;
 
+}
+#post {
+   margin-left:400px;
+   margin-right: 400px;
+}
+
+#post img{
+	height: 400px;
+	width: auto;
+	margin-bottom: 20px;
 }
 
 
-footer{
-	color: #000000;
-	background-color: #DDDDDD;
+/**footer**/
 
+footer{
+	background-color: #DDDDDD;
 }
 
 footer li{
-	text-align: right;
-	font-size: 10px;
+	float: right;
+	font-size: 15px;
+	display: inline;
 
 }
+
 small{
 	margin-left: 20px;
 }
