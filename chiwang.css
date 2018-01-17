@@ -1,13 +1,13 @@
 /**版面設計**/
 
 body{
-	font-family:"Calibri Regular","微軟正黑體 Light", sans-serif;
-    color: #000;
-    overflow: auto;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    line-height: 1rem;
+	font-family:"arial","微軟正黑體 Light", sans-serif;
+    margin: 24px 18px;
+}
+
+#container{ 
+    width: 960px
+    margin: auto;
 }
 
 header{
@@ -17,18 +17,22 @@ header{
 	z-index: 999;
 }
 
-/**細節設計**/
-/**logo**/
+/* ### HEADER LOGO ###*/
 
-#banner{
-	float: left;
+#site {
+    float: left;
 }
 
-
-#banner img{
-	vertical-align: bottom;
-	width: 332px
+#site h1 {
+    margin: 0;
 }
+
+#site img {
+    vertical-align: bottom;
+    width: 332px;
+}
+
+/* ### HEADER NAV ###*/
 
 nav{
 	float: right;
